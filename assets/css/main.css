@@ -115,7 +115,7 @@ input, select, textarea {
 /* Type */
 
 	body, input, select, textarea {
-		color: rgba(255, 255, 255, 0.55);
+		color: rgba(58, 46, 46, 0.574); /* <p> text color*/
 		font-family: Arial, Helvetica, sans-serif;
 		font-size: 16.5pt;
 		font-weight: normal;
@@ -173,9 +173,10 @@ input, select, textarea {
 	p {
 		margin: 0 0 2em 0;
 	}
-
+/*title color */
+/*h3 color*/
 	h1, h2, h3, h4, h5, h6 {
-		color: #ffffff;
+		color: #230e53;
 		font-weight: bold;
 		line-height: 1.5;
 		margin: 0 0 0.5em 0;
@@ -1983,6 +1984,7 @@ input, select, textarea {
 		display: -webkit-flex;
 		display: -ms-flex;
 		display: flex;
+		flex-direction: column; /* experience : column styled */
 		-moz-flex-wrap: wrap;
 		-webkit-flex-wrap: wrap;
 		-ms-flex-wrap: wrap;
@@ -2535,7 +2537,7 @@ input, select, textarea {
 				font-size: 1.25em;
 			}
 
-				.wrapper.style1 .icon.major:before {
+				/*.wrapper.style1 .icon.major:before {
 					color: #5e42a6;
 				}
 
@@ -2549,15 +2551,15 @@ input, select, textarea {
 
 				.wrapper.style2-alt .icon.major:before {
 					color: #3e4094;
-				}
+				}*/
 
 				.wrapper.style3 .icon.major:before {
-					color: #b74e91;
+					color: #10070d;
 				}
 
-				.wrapper.style3-alt .icon.major:before {
-					color: #953d75;
-				}
+				/*.wrapper.style3-alt .icon.major:before {
+					color: #6d5766;
+				}*/
 
 /* Image */
 
@@ -2867,7 +2869,7 @@ input, select, textarea {
 	}
 
 	header p {
-		color: rgba(255, 255, 255, 0.35);
+		color: rgba(222, 94, 94, 0.344);
 		position: relative;
 		margin: 0 0 1.5em 0;
 	}
@@ -3234,33 +3236,34 @@ input, select, textarea {
 				}
 
 			}
-#changeColors
+/*changeColors*/
+			
 		.wrapper.alt {
-			background-color: #b4a5ba;
+			background-color: #183e41;
 		}
-
+/*color of top and buttom*/
 		.wrapper.style1 {
-			background-color: #d9d3e9;
+			background-color: #ffffff;
 		}
-
+/*color of the end of the page */
 		.wrapper.style1-alt {
-			background-color: #d8d7ba;
+			background-color: #151513;
 		}
-
+/*color of project*/
 		.wrapper.style2 {
-			background-color: #5052b5;
+			background-color: #f0f0ff;
 		}
 
 		.wrapper.style2-alt {
 			background-color: #3e4094;
 		}
-
+/*color of experience */
 		.wrapper.style3 {
-			background-color: #c8a6bc;
+			background-color: #fffbfb;
 		}
 
 		.wrapper.style3-alt {
-			background-color: #eaa6d1;
+			background-color: #e1ccd9;
 		}
 
 		.wrapper.fullscreen {
@@ -3377,7 +3380,7 @@ input, select, textarea {
 
 		#header > .title {
 			border: 0;
-			color: #ffffff;
+			color: #e85757;
 			display: block;
 			font-size: 1.25em;
 			font-weight: bold;
@@ -3521,10 +3524,10 @@ input, select, textarea {
 	}
 
 /* Sidebar */
-
+/* Sidebar color */
 	#sidebar {
 		padding: 2.5em 2.5em 0.5em 2.5em ;
-		background: #312450;
+		background: #1f0855;
 		cursor: default;
 		height: 100vh;
 		left: 0;
@@ -3737,7 +3740,7 @@ input, select, textarea {
 			-ms-transition: color 0.2s ease;
 			transition: color 0.2s ease;
 			border: 0;
-			color: rgba(255, 255, 255, 0.35);
+			color: rgb(255, 247, 247);
 			display: block;
 			font-size: 0.6em;
 			font-weight: bold;
@@ -3761,7 +3764,7 @@ input, select, textarea {
 			}
 
 			#sidebar nav a:before {
-				background: #3c2c62;
+				background: #f7f4ff;
 			}
 
 			#sidebar nav a:after {
@@ -3857,7 +3860,7 @@ input, select, textarea {
 
 						#sidebar nav a:after {
 							background-image: none;
-							background-color: #b74e91;
+							background-color: #9385cc;
 						}
 
 		}
@@ -3882,6 +3885,8 @@ input, select, textarea {
 
 		#intro p {
 			font-size: 1.25em;
+			color: rgb(98, 96, 96);
+			
 		}
 
 			@media screen and (max-width: 980px) {
@@ -3907,3 +3912,47 @@ input, select, textarea {
 			}
 
 		}
+	/*name color*/
+	.h1-name{
+		color: #2a32a2;
+	}
+
+	.intro-container{
+		display: flex;
+  		align-items: center;
+	}
+
+	.hey-icon{
+		width: 53px; /* Adjust size as needed */
+		height: auto; /* Maintain aspect ratio */
+		margin-right: 10px; /* Space between icon and text */
+		
+	  }
+	  .intro-container span {
+		font-size: 2em; /* Adjust as needed to match your design */
+	  }
+
+	  .button {
+		display: inline-block;
+		padding: 10px 20px; /* Adjust padding */
+		font-size: 10px; /* Adjust font size */
+		color: #fff; /* Text color */
+		background-color: #11184b; /* Background color */
+		border: none; /* Remove border */
+		border-radius: 50px; /* Rounded corners */
+		text-align: center; /* Center text */
+		text-decoration: none; /* Remove underline */
+		transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+		line-height: 2.2;
+		
+	  }
+	  
+	  /* Hover effect for the button */
+	  .button:hover {
+		background-color: #251f9a; /* Change background color on hover */
+	  }
+	  
+	  /* Active state for the button */
+	  .button:active {
+		background-color: #13244f; /* Change background color when button is pressed */
+	  }
