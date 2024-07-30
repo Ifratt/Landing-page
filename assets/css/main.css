@@ -96,9 +96,9 @@ input, select, textarea {
 	*, *:before, *:after {
 		box-sizing: inherit;
 	}
-
+/*chnage end body color*/
 	body {
-		background: #312450;
+		background: #1c0f69;
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -155,7 +155,7 @@ input, select, textarea {
 		color: inherit;
 		text-decoration: none;
 	}
-
+/* change email hover*/
 		a:hover {
 			border-bottom-color: transparent;
 			color: #ffffff;
@@ -175,8 +175,8 @@ input, select, textarea {
 	}
 /*title color */
 /*h3 color*/
-	h1, h2, h3, h4, h5, h6 {
-		color: #230e53;
+	h1, h2, h4, h5, h6 {
+		color: #2a1261;
 		font-weight: bold;
 		line-height: 1.5;
 		margin: 0 0 0.5em 0;
@@ -220,6 +220,7 @@ input, select, textarea {
 	}
 
 	h3 {
+		color: white;
 		font-size: 1.1em;
 	}
 
@@ -2295,9 +2296,9 @@ input, select, textarea {
 					}
 
 		}
-
+/*contact title color change*/
 	label {
-		color: #ffffff;
+		color: #fff9f9;
 		font-weight: bold;
 		line-height: 1.5;
 		margin: 0 0 0.7em 0;
@@ -2788,9 +2789,10 @@ input, select, textarea {
 
 		}
 
-/* Contact */
+/* chnage Contact color*/
 
 	ul.contact {
+		color: white;
 		list-style: none;
 		padding: 0;
 	}
@@ -3251,7 +3253,7 @@ input, select, textarea {
 		}
 /*color of project*/
 		.wrapper.style2 {
-			background-color: #f0f0ff;
+			background-color: #ffffff;
 		}
 
 		.wrapper.style2-alt {
@@ -3259,7 +3261,7 @@ input, select, textarea {
 		}
 /*color of experience */
 		.wrapper.style3 {
-			background-color: #fffbfb;
+			background-color: #ffffff;
 		}
 
 		.wrapper.style3-alt {
